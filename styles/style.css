@@ -240,23 +240,21 @@ button:focus-visible {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 19px;
   height: 19px;
-  border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid #ffffff;
   background-color: transparent;
   cursor: pointer;
 }
 
 input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
-  position: absolute;
   content: "";
   width: 15px;
   height: 15px;
-  inset: 1px 1px;
   background-color: rgba(255, 255, 255, 1);
-  cursor: pointer;
 }
 
 .content__card-link {
