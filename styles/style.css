@@ -75,6 +75,7 @@ video {
   position: relative;
   height: 298px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .content__details {
@@ -122,6 +123,7 @@ video {
   font-size: 18px;
   line-height: 21.6px;
   font-weight: 400;
+  margin-bottom: 5px;
 }
 
 .title {
@@ -165,7 +167,7 @@ video {
 .search-form__label {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
   cursor: pointer;
 }
 
@@ -185,6 +187,7 @@ video {
   font-family: inherit;
   font-size: 18px;
   width: 225px;
+  min-height: 27px;
   font-weight: 400;
   color: #ffffff;
 }
