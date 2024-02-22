@@ -75,14 +75,13 @@ video {
   position: relative;
   height: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  width: 399px;
+  width: 100%;
 }
 
 .result {
